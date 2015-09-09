@@ -8,13 +8,14 @@ SW
 - Webbfonter
 - Mini-blurb to frontpage (description)
 
-Move CSS / Bootstrap and load them properly from wp
-currently two files loaded from wp-root/css/demo.css
-	     wp-root/bootstrap/css/bootstrap.min.css
+- Move CSS / Bootstrap and load them properly from wp
+currently two files loaded from 
+wp-root/css/demo.css
+ wp-root/bootstrap/css/bootstrap.min.css
+
+- Get wp to display images in boxes
 
 
-
-—
 sw/
 
 Bilder i olika format
