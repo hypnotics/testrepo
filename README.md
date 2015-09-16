@@ -65,8 +65,8 @@ I footer centrerat
 ***
 
 ### STRUCTURE
-> header.php -> Links to css files + custom css
-> index.php -> All html inside the Wordpress loop
-> footer.php -> All links to javasript files + init script 
-> style.css -> Must be cleaned so we can add theme styles
+* header.php -> Links to css files + custom css
+* index.php -> All html inside the Wordpress loop
+* footer.php -> All links to javasript files + init script 
+* style.css -> Must be cleaned so we can add theme styles
 
