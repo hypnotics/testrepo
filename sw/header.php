@@ -1,10 +1,9 @@
-te for displaying the header
+<?php
+/**
+ * The template for displaying the header
  *
  * Displays all of the head element and everything up until the "site-content" div.
  *
- * @package WordPress
- * @subpackage Twenty_Fifteen
- * @since Twenty Fifteen 1.0
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?> class="no-js">
@@ -44,16 +43,39 @@ te for displaying the header
 
 		/* *********** STYLE OF GRID 1 *********** */
 		
-        body{
-            margin-top: 20px !important;
-        }
+        	body{
+            		margin-top: 20px !important;
+        	}
+        	
+        	.sw-title{
+			font-family: Helvetica;
+			font-size: 19px;
+			color: black;
+			white-space: nowrap;
+			display: inline-block;
+		}
+
+		.sw-tag{
+			font-family: 'Times LT W01 Italic';
+			font-size: 21px;
+		        color: black;
+		        white-space: nowrap;
+			display: inline-block;
+		}
         
-        #grid .media-box-date{
+        	#grid .media-box-date{
 			color: #28ac86;
 		}
 		#grid .media-box-title{
+			font-family: Helvetica;
 			font-size: 19px;
-			margin-bottom: 20px;
+			color: white;
+		}
+
+		#grid .media-box-text{
+			font-family: 'Times LT W01 Italic';
+			font-size: 17px;
+		        color: white;
 		}
         
 		.thumbnail-overlay>div.aligment>div.aligment {
@@ -70,7 +92,7 @@ te for displaying the header
 		            border-radius: 0px;
 		}
 		#grid .thumbnail-overlay{
-			background: white;
+			background: black;
 			padding: 0 20px;
 		}
 		.blue .media-box-title, .blue 
@@ -132,4 +154,3 @@ te for displaying the header
 <div id="page" class="hfeed site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
 	<div id="content" class="site-content">
-
