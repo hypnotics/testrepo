@@ -8,16 +8,18 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<div class="sw-title">STUDIO WITH</div>
-		<div class="sw-tag">Branding & Design</div>
+		
 
 <div class="grid-section" style="background-color: white; width: 100%;">
 
 	<div class="content grid-container" style="width:85%;">
+	<div class="sw-title">STUDIO WITH</div>
+	<div class="sw-tag">Branding & Design</div>
 
 	<!--  ================== MEDIA BOXES ================== -->
        
         <div id="grid" >
+        	        
 
         <!-- -------------------------- BOX MARKUP -------------------------- -->      
                 
@@ -35,17 +37,18 @@ get_header(); ?>
 
 			$thumb = wp_get_attachment_image_src( get_post_thumbnail_id(), 'large');
 			$url = $thumb['0']; 
-			//echo '<img src=' . $url . '>';
                        ?>
                        
                         <div class="media-box nature">
+                    		
                     		<div class="media-box-image">
                         		<div data-thumbnail=<?= $url ?> ></div>
-                        		
+                        		<a href=<?= get_the_permalink() ?> >
                         		<div class="thumbnail-overlay">
-                            			<a href=<?= get_the_permalink() ?> ><div class="media-box-title"> <?= get_the_title() ?></div></a>
-                            			<div class="media-box-text"><?= get_the_excerpt() ?></div>
+                            			<div class="media-box-title sw-title"> <?= get_the_title() ?></div>
+                            			<div class="media-box-text sw-tag"><?= get_the_excerpt() ?></div>
                         		</div>
+                        		</a>
                     		</div>
                 	</div>
            <?php

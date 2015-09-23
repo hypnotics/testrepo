@@ -5732,7 +5732,29 @@ p > video {
 
 }
 
-/* STUDIOWITH & MEDIA BOXES */
-	.site-content{
-		margin-left: 50px !important;
+/* STUDIOWITH & MEDIA BOXES 
+*	.site-content{
+*		margin-left: 50px !important;
+*	} 
+*/
+	.site-main { 
+		padding: 0px;
+        }
+
+	/* Menu contact info */
+	#menu-item-52{
+		height: 60px !important;
+	}
+
+	#menu-item-52 a{
+		height: 50px !important;
+	}
+
+	/* Menu address info */
+	#menu-item-49{
+		height: 80px !important;
+	}
+
+	#menu-item-49 a{
+		height: 60px !important;
 	}

@@ -10,6 +10,8 @@ Todo:
   currently two files loaded from 
   wp-root/css/demo.css
   wp-root/bootstrap/css/bootstrap.min.css
+* Bort med footer
+
 
 ***
 
