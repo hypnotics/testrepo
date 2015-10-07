@@ -11,15 +11,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<?php
-				/**
-				 * Fires before the Twenty Fifteen footer text for footer customization.
-				 *
-				 * @since Twenty Fifteen 1.0
-				 */
-				do_action( 'twentyfifteen_credits' );
-			?>
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyfifteen' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'twentyfifteen' ), 'WordPress' ); ?></a>
+			&copy Studio With 2015
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
@@ -29,18 +21,18 @@
 
 
 <!-- jQuery 1.8+ -->
-<script src="js/jquery-1.10.2.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery-1.10.2.min.js"></script>
  
  
 <!-- Media Boxes JS files -->
-<script src="js/jquery.isotope.min.js"></script>
-<script src="js/jquery.imagesLoaded.min.js"></script>
-<script src="js/jquery.transit.min.js"></script>
-<script src="js/jquery.easing.js"></script>
-<script src="js/waypoints.min.js"></script>
-<script src="js/modernizr.custom.min.js"></script>
-<script src="js/jquery.magnific-popup.min.js"></script>
-<script src="js/jquery.mediaBoxes.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.isotope.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.imagesLoaded.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.transit.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.easing.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/waypoints.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/modernizr.custom.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.magnific-popup.min.js"></script>
+<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.mediaBoxes.js"></script>
 
 <script>
 

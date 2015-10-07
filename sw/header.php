@@ -28,14 +28,14 @@
   	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 
   	<!-- Style for Bootstrap -->
-  	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/bootstrap/css/bootstrap.min.css">
   	
   	<!-- Custom style for the demo-->
-  	<link rel="stylesheet" href="css/demo.css">
+  	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/css/demo.css">
 
   	<!-- Media Boxes CSS files -->
-	<link rel="stylesheet" href="../plugin/css/magnific-popup.css">
-	<link rel="stylesheet" type="text/css" href="../plugin/css/mediaBoxes.css">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() ); ?>/plugin/css/magnific-popup.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo esc_url( get_template_directory_uri() ); ?>/plugin/css/mediaBoxes.css">
 
 	<style>
 
@@ -152,5 +152,5 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="hfeed site">
-	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyfifteen' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content">Screen reader text</a>
 	<div id="content" class="site-content">

@@ -3,14 +3,25 @@
 ## SW
 
 Todo:
-* Hitta en heltäckande WP-meny
-* Webbfonter
-* Skapa ett studiowith theme... style.css måste fixas.
-* Move CSS / Bootstrap and load them properly from wp
-  currently two files loaded from 
-  wp-root/css/demo.css
-  wp-root/bootstrap/css/bootstrap.min.css
-* Bort med footer
+* Move menu to only display after certain scroll
+* Fix close button bug on menu
+* Web fonts
+* Style the footer
+* Customize category pages
+* Customize post pages
+* Style category pages
+* Style post pages
+
+
+***
+
+What's NOT decided?
+* Ingress to the right?
+* Fontface
+* Meny kommer in från höger
+
+
+
 
 
 ***
