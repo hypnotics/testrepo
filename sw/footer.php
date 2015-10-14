@@ -11,7 +11,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			&copy Studio With 2015
+			&copy Studio With 2015ç
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
@@ -33,6 +33,22 @@
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/modernizr.custom.min.js"></script>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.magnific-popup.min.js"></script>
 <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/jquery.mediaBoxes.js"></script>
+
+<script>
+
+// Menu fade
+
+$(window).scroll(function(){
+  if($(window).scrollTop() > 100){
+      $("#responsive_menu_pro_header_bar").fadeIn("slow");
+  }
+});
+$(window).scroll(function(){
+  if($(window).scrollTop() < 100){
+      $("#responsive_menu_pro_header_bar").fadeOut("fast");
+  }
+});
+</script>
 
 <script>
 

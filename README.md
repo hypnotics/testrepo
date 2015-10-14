@@ -3,14 +3,16 @@
 ## SW
 
 Todo:
-* Move menu to only display after certain scroll
 * Fix close button bug on menu
+* Style the menu
 * Web fonts
 * Style the footer
 * Customize category pages
 * Customize post pages
 * Style category pages
 * Style post pages
+* Loading symbol
+*
 
 
 ***
@@ -19,10 +21,6 @@ What's NOT decided?
 * Ingress to the right?
 * Fontface
 * Meny kommer in från höger
-
-
-
-
 
 ***
 
@@ -76,6 +74,9 @@ Random ordning på poster
 I footer centrerat
 
 ***
+
+http://www.pagecolumn.com/2_column_div_generator_m.htm
+
 
 ### STRUCTURE
 * header.php -> Links to css files + custom css
