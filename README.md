@@ -5,14 +5,17 @@
 Todo:
 * Fix close button bug on menu
 * Style the menu
+  Double menu
 * Web fonts
 * Style the footer
 * Customize category pages
 * Customize post pages
+  Restart the wordpress loop
 * Style category pages
 * Style post pages
 * Loading symbol
-*
+* Startpage auto-strech
+
 
 
 ***

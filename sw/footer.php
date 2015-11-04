@@ -11,7 +11,7 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			&copy Studio With 2015ç
+			&copy Studio With 2015
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->
 
@@ -103,6 +103,16 @@ $('#grid').mediaBoxes({
         noMoreEntriesWord: 'No More Entries',
     }); 
     
+</script>
+
+<!-- Some custom StudioWith jQuery to make page display nicely -->
+<script>
+
+$("#responsive_menu_pro_header_bar_logo").append("<div class='sw-tag-menu'>Menu</div>");
+
+
+$("#responsive_menu_pro_title").append("<div class='sw-tag-menu'>Menu</div>");
+
 </script>
 
 </body>

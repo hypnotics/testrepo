@@ -894,8 +894,14 @@ object {
 		padding: 0px;
         }
 
+	/* Category items */
+        #menu-item-42, #menu-item-43, #menu-item-44, #menu-item-45{
+		height: 30px !important;
+	}
+
 	/* Menu contact info */
 	#menu-item-52{
+                margin-top: 10px;
 		height: 60px !important;
 	}
 
@@ -942,3 +948,62 @@ object {
 		margin-bottom: -20px;
 	}
 	
+/* -- RESPONSIVE MENU TWEAKS -- */
+
+/*
+-- #responsive_menu_pro {
+-- z-index: 9998 !important;
+-- }
+*/
+
+.menu-item-object-category{
+	font-family: 'Times LT W01 Italic';
+	font-size: 14px;
+        font-style: italic;
+        color: white;
+        white-space: nowrap;
+	text-decoration: underline;
+}
+
+.menu-item-object-custom{
+	font-family: 'Times LT W01 Italic';
+	font-size: 14px;
+        font-style: italic;
+        color: white;
+        white-space: nowrap;
+}
+
+#menu-item-46, #menu-item-47, #menu-item-48 {
+	text-decoration: underline;
+	height: 30px !important;
+}
+
+
+#responsive_menu_pro_title {
+    font-family: Helvetica;
+    font-size: 19px !important;
+    color: white;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+@media only screen and ( max-width : 6000px ) {
+
+#responsive_menu_pro_header_bar_logo {
+    font-family: Helvetica;
+    font-size: 19px;
+    color: white;
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.sw-tag-menu{
+	font-family: 'Times LT W01 Italic';
+	font-size: 21px;
+        color: white;
+        white-space: nowrap;
+	display: inline-block;
+}
+
+}
+
